@@ -1,0 +1,6 @@
+@EduFind_HostAddress = http://localhost:5232
+
+GET {{EduFind_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
