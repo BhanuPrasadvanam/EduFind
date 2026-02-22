@@ -28,7 +28,7 @@ namespace EduFind.Controllers
         public async Task<IActionResult> GetById(int id)
         {
             var item = await _repo.GetByIdAsync(id);
-            Console.WriteLine("changes");
+            Console.WriteLine("changes test");
             if (item == null)
                 return NotFound();
 
